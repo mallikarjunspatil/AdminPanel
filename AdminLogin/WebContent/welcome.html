@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Admin page</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+<style>
+	
+</style>
+</head>
+<body>
+		<h1>Post Your Job Rolls</h1>
+		<form action="adminlink" method="post">
+		
+				<label>Enter Job Id</label>
+				<input type="text" name="jobid" class="form-control" required="required"/>
+			
+				<label>Enter Job Title</label>
+				<input type="text" name="rollName" class="form-control" />
+			
+				<label>Description : </label><br>
+				<input type="text" name="description" class="form-control"/>
+			
+				<label>Enter Interview Date</label>
+				<input type="text" name="idate" class="form-control" />
+		
+				<label>Enter Expire Date</label>
+				<input type="text" name="edate" class="form-control" />
+				
+				<label>Enter cutoff percentage</label>
+				<input type="text" name="percentage" class="form-control" required="required" /><br>
+				
+				<input type="submit" value="Add" class="btn btn-secondary" name="add" /><br>
+				
+				<a href="jobpost.html" >Back</a><br>
+				<a href="index.html" >Logout</a>
+				
+		</form>
+</body>
+</html>
